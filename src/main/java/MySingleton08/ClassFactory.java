@@ -24,6 +24,6 @@ public class ClassFactory {
     }
 }
 
-class MySingleton{//需要获实现单例的类，比如数据库连接Connection
-    public MySingleton(){}
+class MySingleton{//需要实现单例的类，比如数据库连接Connection
+    public MySingleton(){};
 }
