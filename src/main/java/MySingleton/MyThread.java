@@ -15,7 +15,6 @@ public class MyThread implements Runnable {
 //        System.out.println(MySingleton7.getInstance().hashCode());
         System.out.println(ClassFactory.getInstance().hashCode());
     }
-    
 
     public static void main(String[] args) {
         Thread[] mts = new Thread[10];
