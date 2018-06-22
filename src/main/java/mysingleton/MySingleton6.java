@@ -1,4 +1,4 @@
-package MySingleton;
+package mysingleton;
 
 /**
  * Created by bentengdi on 2018/3/15.
