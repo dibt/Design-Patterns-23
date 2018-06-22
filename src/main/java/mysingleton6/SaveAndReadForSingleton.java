@@ -1,4 +1,4 @@
-package MySingleton6;
+package mysingleton6;
 
 import java.io.*;
 
@@ -10,7 +10,7 @@ public class SaveAndReadForSingleton {
     public static void main(String[] args) {
         MySingleton6 singleton = MySingleton6.getInstance();
 
-        File file = new File("MySingleton6.txt");
+        File file = new File("mysingleton6.txt");
 
         try {
             FileOutputStream fos = new FileOutputStream(file);

@@ -1,4 +1,4 @@
-package MySingleton6;
+package mysingleton6;
 
 
 /**

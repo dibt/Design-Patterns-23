@@ -1,4 +1,4 @@
-package MySingleton6;
+package mysingleton6;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;
