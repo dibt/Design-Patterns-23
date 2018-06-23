@@ -1,4 +1,4 @@
-package dynamicproxy;
+package dynamicproxy.cglibdynamicproxy;
 
 public class CglibProxyTest {
     public static void main(String[] args) {

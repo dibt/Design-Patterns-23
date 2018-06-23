@@ -3,4 +3,4 @@
 [url1]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton
 * [动态代理模式的-DynamicProxy][url2]
 
-[url2]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton
+[url2]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/dynamicproxy
