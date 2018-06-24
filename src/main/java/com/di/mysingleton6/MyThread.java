@@ -1,4 +1,4 @@
-package mysingleton6;
+package com.di.mysingleton6;
 
 
 /**

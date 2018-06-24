@@ -1,4 +1,4 @@
-package dynamicproxy.cglibdynamicproxy;
+package com.di.dynamicproxy.cglibdynamicproxy;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

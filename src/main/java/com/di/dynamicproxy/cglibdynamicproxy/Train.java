@@ -1,4 +1,4 @@
-package dynamicproxy.cglibdynamicproxy;
+package com.di.dynamicproxy.cglibdynamicproxy;
 
 public class Train {
     public void move(){

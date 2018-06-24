@@ -1,4 +1,4 @@
-package dynamicproxy.jdkdynamicproxy;
+package com.di.dynamicproxy.jdkdynamicproxy;
 
 public class Bus implements ITransportation {
 

@@ -4,3 +4,6 @@
 * [动态代理模式-DynamicProxy][url2]
 
 [url2]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/dynamicproxy
+* [工厂模式-Factory][url3]
+
+[url3]: h

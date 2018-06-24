@@ -1,4 +1,4 @@
-package mysingleton;
+package com.di.mysingleton;
 
 /**
  * Created by bentengdi on 2018/3/15.
@@ -11,7 +11,7 @@ public class MyThread implements Runnable {
 //        System.out.println(MySingleton3.getInstance().hashCode());
 //        System.out.println(MySingleton4.getInstance().hashCode());
 //        System.out.println(MySingleton5.getInstance().hashCode());
-//        System.out.println(mysingleton6.getInstance().hashCode());
+//        System.out.println(com.di.mysingleton6.getInstance().hashCode());
 //        System.out.println(MySingleton7.getInstance().hashCode());
         System.out.println(ClassFactory.getInstance().hashCode());
     }

@@ -1,4 +1,4 @@
-package mysingleton;
+package com.di.mysingleton;
 
 /**
  * Created by bentengdi on 2018/3/15.

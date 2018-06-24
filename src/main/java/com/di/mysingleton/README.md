@@ -29,7 +29,7 @@
    在声明变量时使用了volatile关键字来保证其线程间的可见性；
    在同步代码块中使用二次检查，以保证其不被重复实例化。
    集合其二者，这种实现方式既保证了其高效性，也保证了其线程安全性。  
-  * [mysingleton6][url6]
+  * [com.di.mysingleton6][url6]
   
     [url6]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/MySingleton6.java   
   
@@ -40,7 +40,7 @@
   但是在遇到序列化对象时(就是实现Serializable接口)，默认的方式运行得到的结果却是多个实例的。
   ObjectInputStream类中的readObject()方法返回的是一个新的被序列化的实例，
   要保证其线程安全，需要实现单例的类中实现一个readResolve()方法，
-  具体实现见MySingleton6包中[mysingleton6][url66]下的实现。
+  具体实现见MySingleton6包中[com.di.mysingleton6][url66]下的实现。
   
     [url66]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton6/MySingleton6.java
     简单介绍一下readResolve()方法：  
