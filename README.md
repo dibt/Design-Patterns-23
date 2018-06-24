@@ -6,4 +6,4 @@
 [url2]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java//com/di/dynamicproxy
 * [工厂模式-Factory][url3]
 
-[url3]: h
+[url3]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/factory
