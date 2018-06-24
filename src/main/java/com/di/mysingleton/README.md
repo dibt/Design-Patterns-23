@@ -1,28 +1,28 @@
 # 高并发下线程安全的单例模式-singleton
 * [MySingleton1][url1]
 
-  [url1]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/MySingleton1.java  
+  [url1]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton/MySingleton1.java  
   饿汉式单例-线程安全
 * [MySingleton2][url2]
 
-  [url2]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/MySingleton2.java  
+  [url2]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton/MySingleton2.java  
 
   懒汉式单例-非线程安全
 * [MySingleton3][url3]
 
-  [url3]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/MySingleton3.java    
+  [url3]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton/MySingleton3.java    
 
   懒汉式单例-synchronized关键字-同步方法-线程安全-效率低
 * [MySingleton4][url4]
 
-  [url4]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/MySingleton4.java 
+  [url4]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton/MySingleton4.java 
 
   懒汉式单例-synchronized关键字-同步代码块-线程安全-效率低，
   其中还有一种情况不是线程安全的，代码中注释掉的部分，原因是
   同步部分代码块。
  * [MySingleton5][url5]
  
-   [url5]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/MySingleton5.java
+   [url5]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton/MySingleton5.java
  
    懒汉式单例-双检查锁机制-线程安全  
    
@@ -31,7 +31,7 @@
    集合其二者，这种实现方式既保证了其高效性，也保证了其线程安全性。  
   * [com.di.mysingleton6][url6]
   
-    [url6]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/MySingleton6.java   
+    [url6]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton/MySingleton6.java   
   
     静态内部类实现单例-线程安全  
   
@@ -42,7 +42,7 @@
   要保证其线程安全，需要实现单例的类中实现一个readResolve()方法，
   具体实现见MySingleton6包中[com.di.mysingleton6][url66]下的实现。
   
-    [url66]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton6/MySingleton6.java
+    [url66]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton6/MySingleton6.java
     简单介绍一下readResolve()方法：  
     
     保护性恢复对象（同时也可以替换对象）——readResolve()：
@@ -78,9 +78,9 @@
     [url]: https://blog.csdn.net/u014653197/article/details/78114041
   * [MySingleton7][url7] 
   
-    [url7]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/MySingleton7.java
+    [url7]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton/MySingleton7.java
     static代码块实现单例-线程安全
   * [ClassFactory][url8]
   
-    [url8]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/mysingleton/ClassFactory.java
+    [url8]:https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/mysingleton/ClassFactory.java
     使用enum枚举实现单例模式
