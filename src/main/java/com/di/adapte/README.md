@@ -7,9 +7,6 @@
 * [工厂模式-Factory][url3]
 
 [url3]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/factory
-* [适配器模式-Adapte][url4]
-
-[url4]: https://github.com/dibt/Design-Patterns-23/tree/master/src/main/java/com/di/adapte
 
 
 
