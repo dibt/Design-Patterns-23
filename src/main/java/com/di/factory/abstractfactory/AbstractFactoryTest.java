@@ -1,9 +1,14 @@
 package com.di.factory.abstractfactory;
 
+import com.di.factory.abstractfactory.impl.MSFactory;
+
 public class AbstractFactoryTest {
     public static void main(String[] args) {
-        PeopleFactory peopleFactory = new HNFactory();
-        IBoy boy=peopleFactory.getBoy();
-        boy.drawBoy();
+        KMFactory kmFactory = new MSFactory();
+        IKeyboard iKeyboard = kmFactory.produceKeyboard();
+        IMouse iMouse = kmFactory.produceMouse();
+        iKeyboard.create();
+        iMouse.create();
+
     }
 }
